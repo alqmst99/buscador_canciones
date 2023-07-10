@@ -42,3 +42,24 @@ body{
 }
 
 /* Content */ 
+.content{
+    padding-top: 2rem;
+}
+.result{
+    background-color: #9999 !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    font-size: 1.5rem !important;
+    margin-bottom: 1rem !important;
+    transition: background-color .3s ease-in-out !important;
+}
+.result:hover{
+    background-color: lightslategrey !important;
+}
+.songs{
+    padding: 0 !important;
+    list-style-type: none !important;
+}
+.show{
+    cursor: pointer;
+}
