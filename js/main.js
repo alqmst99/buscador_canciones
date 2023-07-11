@@ -36,7 +36,7 @@ function songs(songs){
    content.innerHTML= `<ul class="list-group songs">
    ${songs.map(song =>{
     return `<li class="list-group-item result "> <span>${song.title} by ${song.artist.name}</span>
-    <button class="btn btn-info show " data-title = "${song.title}" data-artist="${song.artist.name}" data-album="${song.album.cover}" data-pr="${song.preview} " > Show Lyric </button> </li>
+    <button class="btn btn-info show " data-title = "${song.title}" data-artist="${song.artist.name}" data-album="${song.album.cover_big}" data-pr="${song.preview} " data-ln="${song.link} " > Show </button> </li>
     `
   }).join("") }
   </ul>`

@@ -1,14 +1,16 @@
 /* General*/
 *{
      box-sizing: border-box;
+
 }
+
 /* Header */
-html, main{
+main{
     height: 100%;
 }
 body{
     font-family: sans-serif;
-    background-color: #7999dd;
+    background: radial-gradient(circle, rgba(227,98,98,0.742734593837535) 0%, rgba(57,119,189,1) 100%);
 }
 
 /* Main */
@@ -62,4 +64,17 @@ body{
 }
 .show{
     cursor: pointer;
+}
+.lyric{
+    margin-top: 1rem !important;
+    background: radial-gradient(circle, rgba(14,65,230,1) 0%, rgba(0,0,0,1) 100%) !important ;
+ 
+}
+.btn-outline-success{
+    width: 90% !important;
+    position: relative;
+    left: 5% !important;
+}
+.modal-title{
+    color: white !important;
 }
