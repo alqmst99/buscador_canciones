@@ -65,16 +65,15 @@ body{
 .show{
     cursor: pointer;
 }
-.lyric{
+.modal-content{
     margin-top: 1rem !important;
     background: radial-gradient(circle, rgba(14,65,230,1) 0%, rgba(0,0,0,1) 100%) !important ;
  
 }
-.btn-outline-success{
-    width: 90% !important;
-    position: relative;
-    left: 5% !important;
+source{
+    background:radial-gradient(circle, rgba(14,65,230,1) 0%, rgba(0,0,0,1) 100%) !important ;
+    color: auto;
 }
-.modal-title{
+h1, h2{
     color: white !important;
 }
