@@ -39,7 +39,7 @@ function ShowSong(artist, title, album, data, preview, ln) {
    
   <div class="d-flex row justify-content-between align-items-center ">
   <div class="d-flex justify-content-center">
-   <audio class="recording" controls autoplay loop type="audio/mp3"><source class="recording" src="${preview} " type="audio/mp3"></audio>
+   <audio class="recording" controls autoplay loop type="audio/mp3"><source class="recording" src="${preview} " type="audio/mp3" ></audio>
  
   </div>
   <div class="title d-flex justify-content-center">
